@@ -1,0 +1,191 @@
+
+#lado{
+	padding: 5px;
+}
+
+
+#nav {
+	height: 100%;
+	width: 790px;
+	float: left;
+	margin-bottom: 20px;
+	margin-left: 80px;
+}
+
+.bt {
+	background-color: #72b70f;
+	margin-left: 50px;
+	color: #fff;
+	border-radius: 30px;
+	border: none;
+	height: 32px;
+	width: 100px;
+	margin-left: 90px;
+}
+
+#bts {
+	width: 790px;
+	height: 50px;
+	padding: 10px;
+	float: left;
+	margin: 20px;
+}
+
+ul.tabs {
+	list-style: none;
+	margin: 0px;
+	padding-bottom: 2px;
+	padding-left: 3px;
+	padding-right: 0px;
+	padding-top: 5px;
+	float: left;
+	height: 100%;
+	border-bottom: 1px solid #fff;
+	border-left: 1px solid #fff;
+	width: 780px;
+	background: -moz-linear-gradient(top, #fff, #fff) repeat-X;
+	background: -webkit-gradient(linear, left top, left bottom, from(#fff),
+		to(#fff)) repeat-X;
+	border-left: 1px solid #fff;
+}
+
+ul.tabs li {
+	float: left;
+	margin: 1px;
+	padding: 0px;
+	height: 50px;
+	line-height: 31px;
+	border: 1px solid #fff;
+	border-left: none;
+	margin-bottom: -1px;
+	overflow: hidden;
+	position: relative;
+}
+
+ul.tabs li a {
+	text-decoration: none;
+	color: White;
+	font: bold;
+	display: block;
+	font-size: 1.2em;
+	font-family: Times New Roman;
+	padding: 0 20px;
+	border: 1px solid #fff;
+	outline: none;
+}
+
+ul.tabs li.active a
+	/*Deixa a cor da fonte verde assim que aba se torna ativa*/ {
+	color: #000;
+}
+
+ul.tabs li a:hover {
+	background: #ccc;
+	color: #fff;
+}
+
+html ul.tabs li.active {
+	color: #fff;
+	background: #fff;
+	/* a aba aparece com o fundo branco quando selecionada*/
+	border-bottom: 1px solid #fff;
+	/*--faz a aba ativa parecer conectada com seu conteudo--*/
+}
+
+html ul.tabs li.active a:hover
+	/*--Faz a lista ativa nao obedecer as propriedades do hover--*/ {
+	color: #000;
+	background: #ccc;
+	border-bottom: 1px solid #fff;
+}
+
+.tab_container {
+	border-top: none;
+	overflow: hidden;
+	clear: both;
+	float: left;
+	width: 100%;
+	background: #fff;
+}
+
+.cont_tab {
+	padding: 25px;
+	font-size: 1.2em;
+	border-top-width: 0px;
+}
+
+#resumo {
+	display: -moz-grid;
+	height: auto;
+	min-height: 600px;
+	text-align: center;
+	vertical-align: middle;
+	white-space: normal;
+	padding: 10px;
+	width: auto;
+	min-width: 300px;
+	margin-right: 60px;
+	
+	float: left;
+}
+
+.img {
+	height: 130px;
+	width: 200px;
+	border: 2px solid #d6d6d6;
+	border-radius: 40px;
+}
+
+table {
+	border-bottom: 2px solid #ddd;
+	border: none;
+	width: 100%;
+	float: left;
+	margin: 0 0 2em;
+}
+
+.btFinalizar {
+	border: none;
+	background-color: #72b70f;
+	margin-left: 0px;
+	margin-top: 20px;
+	color: #fff;
+	height: 30px;
+	width: 730px;
+	border-radius: 30px;
+}
+
+#divAutomovel {
+	width: 250px;
+	height: 50px;
+	margin-left: 20px;
+}
+
+h5 {
+	color:#696969;
+}
+
+#divProtecao {
+	width: 200px;
+	height: 30px;
+	padding: 10px;
+	margin-left: 20px;
+	
+}
+
+#divOpcional {
+	width: 220px;
+	height: 30px;
+	padding: 10px;
+	margin-left: 20px
+}
+
+.sei {
+	width:250px;
+	margin-left: 10px;
+	
+}
+.icon{
+	margin-top:40px;
+	margin-right: 70px;
+}
